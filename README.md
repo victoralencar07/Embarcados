@@ -10,6 +10,7 @@ Matrícula
 Após o login bem-sucedido, o aluno terá acesso à internet e sua presença será registrada.
 
 🧩 Etapas Realizadas
+
 ✅ 1. Instalação do RaspOS Lite
 Sistema operacional usado: Raspberry Pi OS Lite (32-bit)
 Gravado no SD Card usando Raspberry Pi Imager
@@ -17,6 +18,7 @@ Configurações iniciais:
 SSH ativado (criando arquivo vazio ssh na partição boot)
 Conexão WiFi configurada via wpa_supplicant.conf
 IP estático configurado (opcional)
+
 ✅ 2. Acesso Remoto via SSH com Chave Pública
 Gerado par de chaves SSH:
 bash
