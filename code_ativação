@@ -81,12 +81,3 @@ sudo systemctl restart dhcpcd
 sudo systemctl restart dnsmasq
 sudo systemctl restart hostapd
 
-# ==============================
-# 8. Verificação final
-# ==============================
-echo ""
-echo "✅ Configurações concluídas!"
-echo "🔌 Conecte-se à rede WiFi: Rasp_Attend"
-echo "🔑 Senha da rede: minhasenha123"
-echo "🌐 Dispositivos terão IPs entre 192.168.4.2 e 192.168.4.20"
-echo "💻 Acesse: sudo iptables -L -v -n para ver as regras atuais"
